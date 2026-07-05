@@ -124,7 +124,7 @@ These features provide a robust foundation for efficiently managing a coffee sho
 | --------------------------------------------------------------------------------------------------------------------------------- |
 | ![Login Page](https://github.com/Simanto5858/RH_coffee_shop/blob/main/images/login_page.png) |
 
-| Logout Page                                                                                                                             |
+| Registration Page                                                                                                                             |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Register Page](https://github.com/Simanto5858/RH_coffee_shop/blob/main/images/register_page.png) |
 
