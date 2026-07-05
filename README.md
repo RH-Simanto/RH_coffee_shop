@@ -7,7 +7,7 @@ The Coffee Shop Management System is a web-based application designed to streaml
 
 ## Demo
 
-Experience RH Coffee firsthand with a live website available at [Website Link](https://rh-coffee-shop.rf.gd/).
+Experience RH Coffee firsthand with a live website available at [Website Link](https://rhcoffee.free.nf).
 
 ## Installation
 
@@ -157,5 +157,5 @@ If you'd like to contribute, please follow these steps:
 
 [Ratul Hossain](https://github.com/Simanto5858)
 
-Email: [simanto@gmail.com]
+Email: [simanto5858@gmail.com]
 
