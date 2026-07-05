@@ -1,25 +1,20 @@
 <?php
+// Detect if running on a local development environment
+// LOCAL SETTINGS (XAMPP)
+    $server_name = "localhost";
+    $user_name = "root";       // XAMPP default user
+    $password = "";            // XAMPP default password (empty)
+    $db_name  = "RH-coffee-shop";   // Your local database name (phpMyAdmin)
 
-$url = "https://ztyftrvjwrlojnzrlcpw.supabase.co/rest/v1/products";
+    // Local URLs (adjust to your folder name in htdocs)
+    define("url", "http://localhost/RH-coffee-shop");
+    define("ADMINURL", "http://localhost/RH-coffee-shop/admin-panel");
 
-$apikey = "ztyftrvjwrlojnzrlcpw";
+// Create MySQL connection
+$conn = mysqli_connect($server_name, $user_name, $password, $db_name);
 
-$headers = [
-    "apikey: $apikey",
-    "Authorization: Bearer $apikey",
-    "Content-Type: application/json"
-];
-
-$ch = curl_init();
-
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
-$response = curl_exec($ch);
-
-curl_close($ch);
-
-echo $response;
-
+// Check connection
+if (mysqli_connect_errno()) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 ?>
