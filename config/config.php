@@ -7,8 +7,8 @@
     $db_name  = "RH-coffee-shop";   // Your local database name (phpMyAdmin)
 
     // Local URLs (adjust to your folder name in htdocs)
-    define("url", "http://localhost/RH-coffee-shop");
-    define("ADMINURL", "http://localhost/RH-coffee-shop/admin-panel");
+    define("url", "http://localhost/rh-coffee");
+    define("ADMINURL", "http://localhost/rh-coffee/admin-panel");
 
 // Create MySQL connection
 $conn = mysqli_connect($server_name, $user_name, $password, $db_name);
